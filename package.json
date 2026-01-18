@@ -1,0 +1,15 @@
+{
+  "name": "substack-classic",
+  "version": "0.1.0",
+  "description": "View any Substack in classic newspaper format",
+  "main": "static/js/main.js",
+  "author": "Aadi Bajpai <hello@aadibajpai.com>",
+  "license": "MIT",
+  "scripts": {
+    "fmt": "prettier --write ./static/js/main.js",
+    "dev": "python3 -m http.server 8000 --directory ./static"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
+}
