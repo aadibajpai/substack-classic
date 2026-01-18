@@ -256,7 +256,7 @@ function LandingView(app) {
     <p class="landing-hint">
       Try: <a href="#/@rawandferal">raw and feral</a>,
       <a href="#/@ratorthodox">ratorthodox</a>,
-      <a href="#/@seths">seths</a>
+      <a href="#/@usefulfictions">useful fictions</a>
     </p>
   </div>`;
 }
@@ -364,10 +364,13 @@ class App extends Component {
             </div>`}
       <footer>
         <p>
-          Substack Classic is built with
+          Built by <a href="/">Aadi Bajpai</a> with
           <a target="_blank" href="https://github.com/thesephist/unim.press"
             >unim.press</a
           >. <a href="/">Try another Substack</a>.
+          <a target="_blank" href="https://github.com/aadibajpai/substack-classic"
+            >Source</a
+          >.
         </p>
       </footer>
     </div>`;
@@ -467,10 +470,13 @@ class App extends Component {
           : storiesSection}
       <footer>
         <p>
-          Substack Classic is built with
+          Built by <a href="/">Aadi Bajpai</a> with
           <a target="_blank" href="https://github.com/thesephist/unim.press"
             >unim.press</a
           >. <a href="/">Try another Substack</a>.
+          <a target="_blank" href="https://github.com/aadibajpai/substack-classic"
+            >Source</a
+          >.
         </p>
       </footer>
     </div>`;
